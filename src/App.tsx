@@ -9,23 +9,24 @@ import Stats from "./components/Stats";
 const initialItems: Item[] = [
   {
     id: 1,
-    description: "first Description",
+    description: "Sunscreen",
     quality: 4,
     packed: false,
   },
   {
     id: 2,
-    description: "Second Description",
+    description: "Swimsuit",
     quality: 6,
     packed: false,
   },
   {
     id: 3,
-    description: "Third Description",
+    description: "Beach Towel",
     quality: 8,
     packed: false,
   },
 ];
+
 
 const App: FC = () => {
   const [items, setItems] = useState<Item[]>(initialItems);
